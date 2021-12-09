@@ -17,7 +17,9 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #5A5A5A;
+  color: #000;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 a {
@@ -28,6 +30,15 @@ a {
 a:hover,
 a:focus {
   text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #5A5A5A;
 }
 
 h1 {
@@ -41,6 +52,12 @@ h2 {
   margin-bottom: 30px;
 }
 
+h3 {
+  font-size: 4.5rem;
+  line-height: 3rem;
+  margin-bottom: 40px;
+}
+
 
 
 /* Custom Classes */
@@ -52,6 +69,10 @@ h2 {
 
 .d-flex {
   display: flex;
+}
+
+.order-reverse {
+
 }
 
 
@@ -94,4 +115,16 @@ h2 {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 600;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 376px) {
+
+  .order-reverse {
+    flex-direction: row-reverse;
+  }
+
 }
