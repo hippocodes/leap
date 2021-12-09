@@ -13,3 +13,24 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #5A5A5A;
+}
+
+h1 {
+  font-size: 8.5rem;
+  line-height: 10.3rem;
+}
+
+h2 {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  margin-bottom: 30px;
+}
+
+/* Custom Classes */
+.text-center {
+  text-align: center;
+}
