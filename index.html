@@ -87,8 +87,9 @@
                 <p>You’ll get seventeen e-mails per day that are filled to the rim with helpful tips and techniques for avoiding spam.</p>
             </div>
             <div class="footer-form">
-                <form class="d-flex" action="" method="get">
+                <form class="d-flex" action="" method="POST">
                     <input type="email" name="email" id="email" placeholder="your@email.com" required>
+                    <input name="honeypot" tabindex="-1" autocomplete="off">
                     <input type="submit" value="Submit">
                 </form>
             </div>

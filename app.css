@@ -318,6 +318,10 @@ form input[type="submit"] {
   font-weight: 600;
 }
 
+form input[name="honeypot"] {
+  display: none;
+}
+
 
 
 /* Media Queries */
