@@ -203,6 +203,7 @@ header {
   background-size: 193px 154px, 291px 164px;
   width: 100%;
   height: 172px;
+  margin-top: -50px;
 }
 
 
@@ -321,6 +322,7 @@ form input[type="submit"] {
 
 /* Media Queries */
 
+/* non-mobile devices */
 @media only screen and (min-width: 750px) {
   
   h1 {
@@ -390,6 +392,7 @@ form input[type="submit"] {
   .hero-image {
     width: 68%;
     height: 484px;
+    margin-top: 0;
     background-size: 568px 454px, 857px 483px;
   }
   
@@ -460,7 +463,19 @@ form input[type="submit"] {
     font-size: 3.5rem;
     line-height: 4.3rem;
   }
-  
- 
 
+}
+
+
+
+/* mobile devices only */
+@media only screen and (max-width: 749px) {
+
+  .hero-item h2 {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 }
